@@ -3,6 +3,7 @@ const exportData = {
   "Array List": arrayList,
   "Linked List": linkedList,
   "Sorting List": sortingList,
+  Tree: tree,
 };
 const introductionToDSA = () => `
 # Introduction to DSA (Data Structure and Alogorithm)
@@ -156,3 +157,37 @@ const linkedList = () => `
  ------------------------------------
 `;
 const sortingList = () => ``;
+
+const tree = () => `
+# Tree (Only have 2 node left or right)
+  - Tree data structure is similar to linked list where each node is connected to previous node.
+  - Only difference here is one node can have multiple node.
+
+# Types of Tree
+  - Binary Tree        : A Binary tree which has max 2 child node. Left node and right node
+  - Binary Search Tree : A Binary tree which the left node has lower value than the right one. 
+  - Avl Tree           : A Binary tree that is self balances so that height of tree is minimum.
+
+# Common Sementics
+                 
+                   R 
+             /     |     \
+            /      |      \
+           A       B       C
+         /  \          /  / |  \
+        /    \        /  /  |   \
+       D      E      F  G   H    I
+
+  - Root        : the first node in the tree is called the root node.
+  - Edge        : All the connection b/w the node is termed as edge.
+  - Nodes       : All the element is termed as node like R,A,B,C,D,E,F,G,H,I.
+  - Leaf Node   : Nodes which don't have any child is termed a leaf node - B,D,E,F,G,H,I.
+  - Child Node  : Node Which has parent A,B,C,D,E,F,G,H,I. 
+  - Parent Node : Node Which has child R,A,C.
+  - Tree Height : Tree height is the maximum number of edges between the node and a leaf node.
+  - Node Height : Node height is the maximum number of edges between the node and a leaf node.
+  - Size        : Tree size is the number of nodes in the tree.
+  
+# Binary Tree
+  - Balanced
+`;

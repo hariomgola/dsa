@@ -29,5 +29,8 @@ public class MainRunnerClass {
 		ls.getFirst();
 		ls.getLast();
 	}
-
+	
+	public static void tree() {
+		Tree tree = new Tree();
+	}
 }
