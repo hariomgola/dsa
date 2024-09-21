@@ -1,7 +1,5 @@
 package dsa_array;
 
-import Main.PrintHelper;
-
 public class Bubble_Sort {
 
 	public static void main(String[] args) {
@@ -17,7 +15,7 @@ public class Bubble_Sort {
 				}
 			}
 			// Printing
-			PrintHelper.ArrayPrintHelper(_array);
+//			PrintHelper.ArrayPrintHelper(_array);
 		}
 	}
 }
